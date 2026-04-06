@@ -68,7 +68,7 @@ a {
 .brand {
   align-items: center;
   display: inline-flex;
-  gap: 14px;
+  gap: 8px;
   font-size: 1.08rem;
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -79,7 +79,6 @@ a {
   height: 22px;
   display: block;
   flex: 0 0 auto;
-  color: #b8c7ff;
 }
 
 .nav {
@@ -88,13 +87,15 @@ a {
 }
 
 .nav a {
-  color: var(--muted);
+  color: #f5f7fb;
   font-size: 0.98rem;
   font-weight: 600;
+  opacity: 0.92;
 }
 
 .nav a:hover {
   color: var(--text);
+  opacity: 1;
 }
 
 .hero {
