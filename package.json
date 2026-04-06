@@ -1,0 +1,10 @@
+{
+  "name": "memx-lab-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Homepage for the memx-lab GitHub organization.",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html styles.css dist/",
+    "start": "python3 -m http.server 4173"
+  }
+}
